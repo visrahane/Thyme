@@ -1,10 +1,11 @@
 h1 {
-	color: #D6C8A4;
+	color: #AF9E5D; 
     font-size: 70;
  
     font-family: sans-serif;
-    letter-spacing: 16px;
+    letter-spacing: 7px;
 }
+/*#AF9E2A saddlebrown #84491fb8*/
 span{
 	display:inline-block; 
 	width: 130px;
@@ -18,4 +19,32 @@ span{
     padding: 14px;
     text-decoration: none;
 }
+.introPara{
+	padding-left: 700px;
+	letter-spacing: 1;
+    font-size: 16px;
+	padding-top: 11px;
+}
+.introPara a{
+	text-decoration: none;
+	font-weight: bold;
+}
 
+.bottomPara{
+	padding-left: 204px;
+	padding-top: 11px;
+	letter-spacing: 1;
+    font-size: 16px;
+}
+.bottomPara a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.brownTitle{
+	padding-left: 700px;
+	font-weight: bold;
+	font-style: italic;
+	color: #84491fb8;
+	font-size: 35px;
+}
