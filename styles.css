@@ -48,3 +48,12 @@ span{
 	color: #84491fb8;
 	font-size: 35px;
 }
+.fixed-bg {
+    background-image: url('images/image6.jpg');
+    width: 100%;
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
