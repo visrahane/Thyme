@@ -1,8 +1,8 @@
 h1 {
 	color: #AF9E5D; 
-    font-size: 70;
+    font-size: 50px;
  
-    font-family: sans-serif,Verdana;
+    font-family: Helvetica,sans-serif;
     letter-spacing: 7px;
 }
 /*#AF9E2A saddlebrown #84491fb8*/
@@ -15,14 +15,16 @@ span{
 }
 .navbar a {
     float: left;
-    margin-left: 145px;
+    margin-left: 140px;
     padding: 14px;
     text-decoration: none;
 	color: black;
+	margin-right: -57px;
+	margin-top: -8px;
 }
 .introPara{
-	padding-left: 700px;
-	letter-spacing: 1;
+	padding-left: 544px;
+	letter-spacing: 1px;
     font-size: 16px;
 	padding-top: 11px;
 }
@@ -36,9 +38,9 @@ span{
 }
 
 .bottomPara{
-	padding-left: 204px;
+	padding-left: 61px;
 	padding-top: 11px;
-	letter-spacing: 1;
+	letter-spacing: 1px;
     font-size: 16px;
 }
 .bottomPara a{
@@ -52,20 +54,23 @@ span{
 }
 
 .brownTitle{
-	padding-left: 700px;
+	padding-left: 544px;
 	font-weight: bold;
 	font-style: italic;
 	color: #84491fb8;
 	font-size: 35px;
+	font-family: serif;
 }
 .fixed-bg {
-    background-image: url('images/image6.jpg');
-    width: 100%;
-	min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg');
+height: 570px;
+width: 1060px;
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: -317px 82px;
+background-size: 1715px;
+
 }
 .orderOnlineBox{
 	position: absolute;
@@ -92,14 +97,14 @@ span{
 .copyrightBox{
 	position: absolute;
 	width: 385px;
-	margin-top: 37%;
+	margin-top: 428px;
 	background-color: #BE9A5C;
-	padding-left: 70%;
+	padding-left: 667px;
 	
 	color: white;
 	font-weight: bold;
 	letter-spacing: 1px;
 	padding-bottom: 100px;
 	padding-top: 40px;
-	font-size: small
+	font-size: 13px
 }
