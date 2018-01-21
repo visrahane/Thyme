@@ -1,32 +1,34 @@
 h1 {
 	color: #AF9E5D; 
-    font-size: 50px;
- 
+    font-size: 50px; 
     font-family: Helvetica,sans-serif;
-    letter-spacing: 7px;
+    letter-spacing: 10px;
+	font-weight: 300;
 }
 /*#AF9E2A saddlebrown #84491fb8*/
 span{
-	display:inline-block; 
-	width: 130px;
+	width: 120px;
+	margin-left: 118px;
+	font-size: 15px;
 }
 .navbar{
 	width: 100%;
 }
 .navbar a {
     float: left;
-    margin-left: 140px;
+    margin-left: 135px;
     padding: 14px;
     text-decoration: none;
 	color: black;
-	margin-right: -57px;
+	margin-right: -51px;
 	margin-top: -8px;
 }
 .introPara{
 	padding-left: 544px;
 	letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 15px;
 	padding-top: 11px;
+	font-family: Helvetica;
 }
 .introPara a{
 	text-decoration: none;
@@ -63,14 +65,12 @@ span{
 }
 .fixed-bg {
 	background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg');
-height: 570px;
-width: 1060px;
-
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: -317px 82px;
-background-size: 1715px;
-
+	height: 570px;
+	width: 1060px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: -320px 82px;
+	background-size: 1719px;
 }
 .orderOnlineBox{
 	position: absolute;
@@ -106,5 +106,5 @@ background-size: 1715px;
 	letter-spacing: 1px;
 	padding-bottom: 100px;
 	padding-top: 40px;
-	font-size: 13px
+	font-size: small
 }
