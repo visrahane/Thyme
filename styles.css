@@ -1,50 +1,110 @@
 h1 {
 	color: #AF9E5D; 
-    font-size: 70;
- 
-    font-family: sans-serif;
-    letter-spacing: 7px;
+    font-size: 50px; 
+    font-family: Helvetica,sans-serif;
+    letter-spacing: 10px;
+	font-weight: 300;
 }
 /*#AF9E2A saddlebrown #84491fb8*/
 span{
-	display:inline-block; 
-	width: 130px;
+	width: 120px;
+	margin-left: 118px;
+	font-size: 15px;
 }
 .navbar{
 	width: 100%;
 }
 .navbar a {
     float: left;
-    margin-left: 145px;
+    margin-left: 135px;
     padding: 14px;
     text-decoration: none;
+	color: black;
+	margin-right: -51px;
+	margin-top: -8px;
 }
 .introPara{
-	padding-left: 700px;
-	letter-spacing: 1;
-    font-size: 16px;
+	padding-left: 544px;
+	letter-spacing: 1px;
+    font-size: 15px;
 	padding-top: 11px;
+	font-family: Helvetica;
 }
 .introPara a{
 	text-decoration: none;
 	font-weight: bold;
+	color: #002023;
+}
+.introPara a:hover{
+	color: gray;
 }
 
 .bottomPara{
-	padding-left: 204px;
+	padding-left: 61px;
 	padding-top: 11px;
-	letter-spacing: 1;
+	letter-spacing: 1px;
     font-size: 16px;
 }
 .bottomPara a{
 	text-decoration: none;
 	font-weight: bold;
+	color: #002023;
+}
+
+.bottomPara a:hover{
+	color: gray;
 }
 
 .brownTitle{
-	padding-left: 700px;
+	padding-left: 544px;
 	font-weight: bold;
 	font-style: italic;
 	color: #84491fb8;
 	font-size: 35px;
+	font-family: serif;
+}
+.fixed-bg {
+	background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg');
+	height: 570px;
+	width: 1060px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: -320px 82px;
+	background-size: 1719px;
+}
+.orderOnlineBox{
+	position: absolute;
+	left: 32%;
+	margin-top: 227px;
+	background-color: white;
+	padding-left: 85px;
+	padding-right: 85px;
+	color: darkslategrey;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-size: small
+}
+.orderOnlineBox a{
+	text-decoration: none;
+	color: darkslategray;
+}
+.orderOnlineBox a:hover{
+	color: gray;
+}
+
+.copyrightBox{
+	position: absolute;
+	width: 385px;
+	margin-top: 428px;
+	background-color: #BE9A5C;
+	padding-left: 667px;
+	
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 100px;
+	padding-top: 40px;
+	font-size: small
 }
