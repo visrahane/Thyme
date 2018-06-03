@@ -5,6 +5,7 @@ WebTech CSCI-571 Assignment 1 - Implement a webpage similar to the screenshots p
 
 <br>
 Refer manual - https://github.com/visrahane/Thyme/blob/master/HW3_Description.pdf
-
 <br>
 Reference video - https://www.youtube.com/watch?v=374LyJZ3_Zw&feature=youtu.be
+<br>
+<p>Have a look <a href="http://www-scf.usc.edu/~rahane/visHomeW3/thymeHomePg.html">here</a></p>
